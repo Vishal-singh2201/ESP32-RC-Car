@@ -71,11 +71,8 @@ ESP32_RC_Car/
 └── images/              # Circuit diagrams / project photos
 ```
 
-## 📸 Demo
-
-Add photos or a demo video link of your working car here.
-
-## 🙋 Author
+## 🙋 Author www.linkedin.com/in/vishal-singh-9a3074376 
+ 
 
 Built as a personal embedded systems project — ECE student project exploring ESP32, WiFi-based control systems, and motor driver interfacing.
 
