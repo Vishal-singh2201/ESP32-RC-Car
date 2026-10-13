@@ -43,6 +43,7 @@ A phone-controlled RC car built using **ESP32**, **L298N motor driver**, and **g
 - **Battery (−)** → L298N `GND` pin
 
 > ⚠️ It is recommended to power the ESP32 from a separate 5V source (not directly from the motor battery) to avoid voltage drops/resets while the motors are running. Keep the grounds of both power sources common.
+> ⚠️ **Important:** The ESP32's WiFi (`ESP32_RC_Car`) has no internet access. Turn off your phone's **mobile data** before connecting, and if your phone shows a "No internet, stay connected?" prompt after connecting, choose **"Connect anyway" / "Yes"**. Otherwise the phone may disconnect from the ESP32's WiFi automatically and the control page (`192.168.4.1`) won't load.
 
 Add your own circuit diagram/photo here: `images/circuit_diagram.jpg`
 
